@@ -19,6 +19,12 @@ $lightBlue:#2568FB;
                 margin-bottom: 1rem;
             }
 
+            p{
+                color: #ff0000;
+                font-size: .8rem;
+                text-align: center;
+            }
+
             form{
                 width: 200px;
                 gap: 1rem;
@@ -44,6 +50,7 @@ $lightBlue:#2568FB;
                 span{
                     font-size: .8rem;
                 }
+
             };
         }
 
