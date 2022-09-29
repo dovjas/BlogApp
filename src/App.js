@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
+import "./style.scss";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import CreateBlog from "./pages/CreateBlog";

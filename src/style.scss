@@ -1,0 +1,51 @@
+$lightGold:#FECD45;
+$lightBlue:#2568FB;
+
+.app {
+    .container{
+
+        //LOGIN & REGISTER
+        .auth{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $lightGold;
+
+            h1{
+                color: #fff;
+                font-size: 2.4rem;
+                margin-bottom: 1rem;
+            }
+
+            form{
+                width: 200px;
+                gap: 1rem;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+                background-color: #fff;
+
+                input{
+                    padding: 1rem;
+                    border: none;
+                    border-bottom: 1px solid #000;
+                }
+
+                button{
+                    padding: .4rem;
+                    border: none;
+                    background-color: $lightBlue;
+                    color: #fff;
+                    font-size: 1rem;
+                    cursor: pointer;
+                }
+                span{
+                    font-size: .8rem;
+                }
+            };
+        }
+
+    }
+}
