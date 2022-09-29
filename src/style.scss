@@ -41,6 +41,7 @@ $lightBlue:#2568FB;
         }
         //FOOTER
         footer{
+            margin-top: 2rem;
             border-top: 1px solid $lightBlue;
             display: flex;
             align-items: center;
@@ -105,6 +106,49 @@ $lightBlue:#2568FB;
                         cursor: pointer;
                     }
                 }
+            }
+        }
+        //BLOG PAGE
+        .blog{
+            display: flex;
+            gap: 40px;
+
+            .content{
+                flex:5;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                img{
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                }
+                p{
+                    text-align: justify;
+                }
+
+                .user{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1rem;
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                    }
+                    span{
+                        font-weight: bold
+                    }
+                    p{
+                        margin: 0;
+                    }
+                    
+                }
+            };
+            .menu{
+                flex: 2;
             }
         }
 
