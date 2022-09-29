@@ -39,6 +39,17 @@ $lightBlue:#2568FB;
 
             }
         }
+        //FOOTER
+        footer{
+            border-top: 1px solid $lightBlue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2{
+                font-size: 2rem;
+                color: #000;
+            }
+        }
 
 
         //LOGIN & REGISTER
