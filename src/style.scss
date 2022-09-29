@@ -2,7 +2,44 @@ $lightGold:#FECD45;
 $lightBlue:#2568FB;
 
 .app {
+    display: flex;
+    justify-content: center;
     .container{
+        width: 1024px;
+        //Navbar
+        nav{
+            .container{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 0;
+                .logo{
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                .link{
+                    text-decoration: none;
+                    color: #000;
+                }
+                .links{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    h4{
+                        font-size: 1rem;
+                        font-style: 400;
+                    }
+
+                    span{
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+
 
         //LOGIN & REGISTER
         .auth{
