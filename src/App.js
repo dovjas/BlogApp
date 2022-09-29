@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Route, Outlet} from 'react-router-dom'
 import "./style.scss";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
@@ -12,6 +12,7 @@ const Layout = () =>{
   return (
     <>
       <Navbar />
+      <Outlet />
       <Footer />
     </>
   )
@@ -42,14 +43,7 @@ const router = createBrowserRouter([
   {
     path:'/login',
     element:<Login/>
-  }, {
-    path:'/createBlog',
-    element:<CreateBlog/>
-  },
-  {
-    path:'/blog',
-    element:<Blog />
-  }, 
+  }
 ])
 
 function App() {
